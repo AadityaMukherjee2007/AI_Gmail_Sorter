@@ -1,7 +1,12 @@
 {% extends "Sorter/layout.html" %}
 
 {% block body %}
-    <div class="flex w-full bg-gray-300 h-20 p-2">
+    <div class="flex w-full bg-gray-300 h-20 p-2 mb-3 shadow-md">
         <h1 class="text-[25px]">AI Gmail Sorter</h1>
     </div>
+
+    <form class="flex justify-center shadow-md m-10 w-75 rounded-lg">
+        <input type="text" style="width: 50%;" class="border border-gray-200 shadow rounded-lg w-100 lg m-3 p-2 focus:border-indigo-500 " placeholder="Gmail" required>
+        
+    </form>
 {% endblock %}
